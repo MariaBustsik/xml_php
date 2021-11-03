@@ -3,18 +3,9 @@
   <toode>
     <lisad>
       <lnimi>liina</lnimi>
-      <suurus>150x2500</suurus>
-    </lisad>
-    <nimi>Maria Bustsik</nimi>
-    <hind>500</hind>
-    <varv>punane</varv>
-  </toode>
-  <toode>
-    <lisad>
-      <lnimi>padjad</lnimi>
       <suurus>150x250</suurus>
     </lisad>
-    <nimi>Artjom</nimi>
+    <nimetus>laud</nimetus>
     <hind>400</hind>
     <varv>punane</varv>
   </toode>

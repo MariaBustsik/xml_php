@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tooted>
+  <toode/>
   <toode>
-    <nimetus>muruniiduk</nimetus>
-    <kirjeldus>Väga lahe aparaat</kirjeldus>
+    <nimetus>Koer</nimetus>
+    <kirjeldus>sinine</kirjeldus>
+    <hind>250</hind>
+  </toode>
+  <toode>
+    <nimetus>diivan2</nimetus>
+    <kirjeldus>sinine</kirjeldus>
+    <hind>200</hind>
+  </toode>
+  <toode>
+    <nimetus>diivan2</nimetus>
+    <kirjeldus>horosho</kirjeldus>
+    <hind>500</hind>
+  </toode>
+  <toode>
+    <nimetus>diivan44</nimetus>
+    <kirjeldus>sinine</kirjeldus>
+    <hind>400</hind>
   </toode>
 </tooted>
