@@ -39,8 +39,13 @@ if(isset($_POST['submit'])){
 <html lang="et">
 <head>
     <title>XML andmete lugemine PHP abil</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
+<ul>
+    <li><a href="mets.php">Andmete salvestamine XML faili, kus andmed lisatakse juurde</a></li>
+    <li><a href="mets2.php">Andmete salvestamine XML faili, kus igakord luuakse uus fail</a></li>
+</ul>
 <h1>XML andmete lugemine PHP abil</h1>
 <h3>Esimese toode nimi:</h3>
 <?php

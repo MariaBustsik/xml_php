@@ -1,0 +1,42 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b4a7d6;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #F2DCDB;
+    font-family: 'Questrial', sans-serif;
+}
+table{
+    border: 5px groove;
+    margin-bottom: 10px;
+}
+
+th {
+    color: white;
+    padding: 5px;
+    background: #c27ba0;
+}
+
+td {
+
+    border-top: 3px ridge #741b47;
+    padding: 8px;
+    background:#e6e0f2;
+}

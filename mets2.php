@@ -69,9 +69,14 @@ if(isset($_POST['submit'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toote lisamine</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 
 <body>
+<ul>
+    <li><a href="mets.php">Andmete salvestamine XML faili, kus andmed lisatakse juurde</a></li>
+    <li><a href="mets2.php">Andmete salvestamine XML faili, kus igakord luuakse uus fail</a></li>
+</ul>
 <h2>Toote sisestamine</h2>
 <table>
     <form action="" method="post" name="vorm1">
