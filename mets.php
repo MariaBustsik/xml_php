@@ -72,6 +72,8 @@ echo $andmed->toode[0]->nimi;
     ?>
 </table>
 
+
+
 <h1>Vormista saadud andmete lisamine XML faili</h1>
 <form method="post" action="">
     <label for="nimi">Toode nimi</label>

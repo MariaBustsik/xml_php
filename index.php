@@ -33,7 +33,24 @@ if(isset($_POST['submit'])){
     $xmlDoc->save('andmeteBaas.xml');
     header("refresh: 0;");
 }
+
+
+//Otsing toode nimi järgi
+
+function searchByName($query) {
+    global $andmed; //to 4to zagruzhaetsa v xml fail
+    $result=array();
+    foreach($andmed->toode as $toode) {
+        if(substr(strtolower($toode->nimi), 0,
+        strlen($query)) == strtolower($query))
+            array_push($result, $toode);
+    }
+
+    return $result;
+
+}
 ?>
+
 
 <!DOCTYPE html>
 <html lang="et">
@@ -66,6 +83,28 @@ echo $andmed->toode[0]->nimi;
     }
     ?>
 </table>
+
+
+
+<h2>Otsing toodenimi järgi</h2>
+<form action="?" method="post">
+    <label for="otsing">otsing:</label>
+    <input type="text" id="otsing" name="otsing" placeholder="toode nimi">
+    <input type="submit" value="Otsi">
+</form>
+<ul>
+<?php
+if (!empty($_POST["otsing"])) {
+    $result=searchByName($_POST["otsing"]);
+    foreach ($result as $toode){
+        echo "<li>";
+        echo $toode->nimi. ", ".$toode->hind;
+        echo "</li>";
+    }
+}
+?>
+</ul>
+
 
 <h1>Vormista saadud andmete lisamine XML faili</h1>
 <form method="post" action="">

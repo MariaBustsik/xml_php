@@ -18,4 +18,22 @@
     <hind>400</hind>
     <varv>punane</varv>
   </toode>
+  <toode>
+    <nimi>Diivan</nimi>
+    <hind>550</hind>
+    <varv>punane</varv>
+    <lisad>
+      <lnimi>liina</lnimi>
+      <suurus>150x250</suurus>
+    </lisad>
+  </toode>
+  <toode>
+    <nimi>Diivan2</nimi>
+    <hind>560</hind>
+    <varv>roheline</varv>
+    <lisad>
+      <lnimi>padjad</lnimi>
+      <suurus>150x2500</suurus>
+    </lisad>
+  </toode>
 </tooted>
