@@ -36,4 +36,19 @@
       <suurus>150x2500</suurus>
     </lisad>
   </toode>
+  <toode>
+    <nimi>Laud</nimi>
+    <hind>500</hind>
+    <lnimi>liina</lnimi>
+    <suurus>150x250</suurus>
+  </toode>
+  <toode>
+    <nimi>diivan3</nimi>
+    <hind>400</hind>
+    <varv>punane</varv>
+    <lisad>
+      <lnimi>liina</lnimi>
+      <suurus>150x250</suurus>
+    </lisad>
+  </toode>
 </tooted>

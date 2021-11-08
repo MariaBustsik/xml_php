@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tooted>
-  <toode/>
   <toode>
-    <nimetus>Koer</nimetus>
-    <kirjeldus>sinine</kirjeldus>
-    <hind>250</hind>
-  </toode>
-  <toode>
-    <nimetus>diivan2</nimetus>
-    <kirjeldus>sinine</kirjeldus>
-    <hind>200</hind>
-  </toode>
-  <toode>
-    <nimetus>diivan2</nimetus>
-    <kirjeldus>horosho</kirjeldus>
-    <hind>500</hind>
-  </toode>
-  <toode>
-    <nimetus>diivan44</nimetus>
-    <kirjeldus>sinine</kirjeldus>
+    <nimi>sdfsdf</nimi>
     <hind>400</hind>
+    <varv>punane</varv>
+    <lisad>
+      <lnimi>padjad</lnimi>
+      <suurus>150x250</suurus>
+    </lisad>
   </toode>
 </tooted>
